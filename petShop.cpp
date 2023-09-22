@@ -2,6 +2,7 @@
 #include "Pokemon.h"
 #include "Digimon.h"
 #include "Pikachu.h"
+#include "Gatomon.h"
 
 int main() {
 	VirtualPet myLittleBoringPet("Basic Pet");

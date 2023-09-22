@@ -4,10 +4,8 @@ Pikachu::Pikachu(const string& inputName, const string& inputSpecies, const int&
 {
 	electricPower = inputEPower;
 }
-
-
 void Pikachu::useElectricShock()
 {
-	cout << getName() << " Releases an electirc bolt of " << electricPower << " Voltage" << endl;
+	cout << getName() << "Uses Electric shock Attack with a power of " << electricPower << endl;
 }
 
