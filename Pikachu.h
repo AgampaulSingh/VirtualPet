@@ -9,7 +9,8 @@ private:
 
 public:
 	Pikachu(const string& inputName, const string& inputSpecies, const int& inputEPower);
-       void useElectricShock();	
+        void useElectricShock();
+	int getElectricPower() const;       
 
 		
 };

@@ -2,8 +2,8 @@ CXX = c++
 
 EXECUTABLE = petShop 
 	
-OBJS = VirtualPet.o Pokemon.o petShop.o Digimon.o Pikachu.o Gatomon.o
-
+OBJS = VirtualPet.o Pokemon.o Digimon.o Pikachu.o Gatomon.o main.o
+ 
 .PHONY: all clean
 
 all: $(EXECUTABLE)

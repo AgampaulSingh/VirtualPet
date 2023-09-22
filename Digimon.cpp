@@ -8,7 +8,10 @@ Digimon::Digimon(const string& digimonName, const string& elementType) : Virtual
 
 void Digimon::useSpecialAttack() 
 {
-	cout << getName() << "Uses his special attack" << endl;
+	cout << getName() << " Uses his special attack" << endl;
+	decreaseHunger(40);
+	if(getHunger() <= 40)
+		cout << "Your  " << getName() << " is getting hungry! Time to feed it" << endl; 
 }
 
 string Digimon::getElement() const

@@ -27,6 +27,7 @@ int main()
 	
 
 	cout << "Name: " << Squirtle.getName() << endl;
+	cout << "Species: " << Squirtle.getSpecies() << endl;
         cout << "Happiness: " << Squirtle.getHappiness() << endl;
         cout << "Hunger: " << Squirtle.getHunger() << endl;
 	cout << "Health: " << Squirtle.getHealth() << endl;
@@ -53,6 +54,7 @@ int main()
 	Raichu.useElectricShock();
 
 	cout << "Name: " << Raichu.getName() << endl;
+	cout << "Species: " << Raichu.getSpecies() << endl;
         cout << "Happiness: " << Raichu.getHappiness() << endl;
         cout << "Hunger: " << Raichu.getHunger() << endl;
 	cout << "Health: " << Raichu.getHealth() << endl;
